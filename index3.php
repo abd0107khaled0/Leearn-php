@@ -134,16 +134,64 @@
 // };
 // echo $say_hi("Abdelrahman");
 
-$arr = [10, 20, 50, 30];
+// $arr = [10, 20, 50, 30];
+// print_r(array_map(fn($i) => $i + 5, $arr));
+// echo "<br/>";
+//  function mapFn($i) {
+//     return $i + 5;
+// };
+// print_r(array_map("mapFn", $arr));
 
-print_r(array_map(fn($i) => $i + 5, $arr));
-echo "<br/>";
- function mapFn($i) {
-    return $i + 5;
-};
-print_r(array_map("mapFn", $arr));
+// string
+// $name = "Abdelrahman khaled mohamed";
+
+// echo "Number of length =>" . strlen($name) . "<br />";
+// echo "$name". strlen($name) . "<br />";
+
+// echo lcfirst($name). "<br />";
+// echo ucfirst($name). "<br />";
+// echo strtolower($name). "<br />";
+// echo strtoupper($name). "<br />";
+// echo ucwords($name). "<br />";
+// echo str_repeat($name, 5). "<br />";
+// echo str_replace("mohamed","issa",$name). "<br />";
+
+// echo stripos($name,"a");
+
+// parse_str("name=Abdelrahman&email=abdo@gm.com&pass=lo",$informationData);
+
+// echo "<pre>";
+// echo $informationData['email'] . "<br />";
+// print_r($informationData);
+// echo"</pre>"
+
+// ;echo quotemeta("title 5$ E $() {}[]");
+
+// echo "<br/>";
+// echo "<br/>";
+
+// echo str_pad("Abdo",25,"0", STR_PAD_BOTH);
+
+// $name = "Abdelrahman k m";
+// $replaceName = str_replace([" k"," m"],[" Khaled", " mohamed"], $name,$n);
+// echo $replaceName ."<br/>" . $n;
+// echo substr_replace("normal","@",2,3)
+
+// $lorem = "lorem_Lorem Ipsum has_been the industry's standard dummy textever since th";
+// echo wordwrap($lorem,8,"<br />",)
+
+// echo ord('z') . "<br />";
+// echo chr(122) . "<br />";
+// echo similar_text("lrahman kad","Abdelrahman khaled");
+
+// echo strstr("Abdelrahman" , "rahman",true) . "<br />";
+// echo strstr("Abdelrahman" , "rahman") . "<br />";
 
 
+
+
+
+;
 
 
 /*

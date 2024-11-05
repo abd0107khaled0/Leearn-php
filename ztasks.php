@@ -532,7 +532,69 @@ function check_status($a, $b, $c) {
  echo $greet("Osama"); // Greetings
 */
 
+//===========================================================================
 
+/*
+======== 53 : 62 ========
+
+// $num_one = -1;
+// $num_two = 2.5;
+// $let_one = "o";
+// $let_two = "z";
+// $str = "El%er0";
+// $str[$num_one] = $let_one;
+// $str[(int)$num_two] = $let_two;
+// $str = str_replace(["%","0"],[$let_two,$let_one],$str);
+// echo $str; // Elzero
+
+$str = "Orezle";
+echo strtr($str,["Orezle"=>"Elzero"])."<br />";
+echo str_replace($str,"Elzero",$str) ."<br />";
+echo substr_replace($str,"Elzero",0);
+
+$str = 'aAa';
+$num = 3;
+$char = "_";
+echo str_repeat(strtr($str,["aAa"=> "aaa_"]),$num)."<br />";
+echo str_repeat(str_replace($str,"aaa_",$str),$num)."<br />";
+echo str_repeat(substr_replace($str,"aaa_",0),$num)."<br />";
+echo str_repeat(chunk_split(strtr($str,["A"=> "a"]),3,$char),$num)."<br />";
+
+// $str = "<div><b>Elzero</b></div>";
+// echo strip_tags($str,"<b>");// <b>Elzero</b>
+
+$str = "Elzero Web School";
+$e = "e";
+$o = "O";
+$four = 4;
+echo substr_count($str,$e,$four)."<br />";
+echo substr_count($str,$e,0)."<br />";
+
+$chars = ["E", "l", "z", "e", "r", "o"];
+echo "". implode("", $chars) ."" // Elzero;
+
+$chars = ["E", 1, 2, "l", "z", "E", "R", "o"];
+$charTr=null;
+foreach ($chars as $char) {
+  if (gettype($char) == "string") {
+    $charTr .= $char;
+  }
+}
+$strReplace = strtr($charTr,['E'=>'e',"R"=>'r']);
+echo ucfirst($strReplace);
+
+
+*/
+
+
+
+
+  // Write Your Code Here
+
+  // aaa_aaa_aaa_
+
+
+  // Elzero
 
 
 
