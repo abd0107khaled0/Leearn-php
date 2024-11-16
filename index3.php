@@ -187,7 +187,81 @@
 // echo strstr("Abdelrahman" , "rahman",true) . "<br />";
 // echo strstr("Abdelrahman" , "rahman") . "<br />";
 
+// $arrayChunk = ['1', '2', '3', '4', '5'];
+// $arrayChangeKeyCase = ['tezt' => '1', 'tezt2' => '2', 'tezt3' => '3', 'tezt4' => '4', 'tezt5' => '5'];
+// $arrayCombineKey = ['k1', 'k2', 'k3'];
+// $arrayCombineValue = ['v1', 'v2', 'v3'];
+// $arrayCountValue = [1, 1, 1, 2, 3, 2, 5, 4, 6, 5, 3, 6]
+// ;
+// echo "<pre>";
+// print_r(array_chunk($arrayChunk, 2));
+// echo "</pre>";
 
+// echo "<br />";
+// echo "<br />";
+// echo "<br />";
+
+// echo "<pre>";
+// print_r(array_change_key_case($arrayChangeKeyCase, CASE_UPPER));
+// echo "</pre>";
+
+// echo "<br />";
+// echo "<br />";
+// echo "<br />";
+
+// echo "<pre>";
+// print_r(array_combine($arrayCombineKey, $arrayCombineValue));
+// echo "</pre>";
+
+// echo "<br />";
+// echo "<br />";
+// echo "<br />";
+
+// echo "<pre>";
+// print_r(array_count_values($arrayCountValue));
+// echo "</pre>";
+
+// $arrayReverse = [1,2,3,[5,6]];
+
+// echo "<pre>";
+// print_r(array_reverse($arrayReverse,true));
+// echo "</pre>";
+
+// echo "<br />";
+// echo "<br />";
+// echo "<br />";
+
+// echo "<pre>";
+// print_r(array_flip($arrayReverse));
+// echo "</pre>";
+
+// echo "<br />";
+// echo "<br />";
+// echo "<br />";
+
+// echo count($arrayReverse,1);
+
+// if(in_array('1',$arrayReverse,true) && array_key_exists(0,$arrayReverse)){
+//     echo "true value";
+// }
+
+
+// $arrayKeys= [1,2,3,1,4,5,6];
+
+// // echo "<pre>";
+
+// // print_r(array_keys($arrayKeys,1));
+
+// // echo "</pre>";
+
+// echo current($arrayKeys) . "<br />"; // 1
+// echo next($arrayKeys) . "<br />"; // 2
+// echo current($arrayKeys) . "<br />"; //2
+// echo prev($arrayKeys) . "<br />"; // 1
+// echo next($arrayKeys) . "<br />"; //2
+// echo next($arrayKeys) . "<br />"; //3
+// echo reset($arrayKeys) . "<br />"; //1
+// echo end($arrayKeys) . "<br />"; //6
 
 
 
